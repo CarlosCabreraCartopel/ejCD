@@ -6,6 +6,8 @@ WORKDIR /app
  
 # Copiar el archivo de la aplicación
 COPY app.py .
+
+EXPOSE 3000
  
 # ENTRYPOINT
 CMD ["python", "app.py"]
