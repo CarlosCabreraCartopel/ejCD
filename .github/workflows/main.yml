@@ -1,5 +1,4 @@
 name: Docker Build & Push
- 
 on:
   pull_request:
     branches:
@@ -12,7 +11,7 @@ on:
   workflow_dispatch:
  
 env:
-  DOCKER_IMAGE_NAME: edygc1988/ejercicio-1
+  DOCKER_IMAGE_NAME: carloscabreravas/hola-mundo
   DOCKER_TAG: ${{ github.sha }}
  
 jobs:
